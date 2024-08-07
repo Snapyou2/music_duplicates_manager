@@ -22,14 +22,14 @@ This Python script helps you find and manage potential duplicate music files in 
 
 ## Usage
 
-1. **Save the code:** Save the provided Python code as a file (e.g., `find_music_duplicates.py`), preferably in your music directory (you can also custom your music path when you run this script)
+1. **Save the code:** Save the provided Python code as a file (e.g., `music_duplicates_manager.py`), preferably in your music directory (you can also custom your music path when you run this script)
 2. **Make it executable :**
    ```bash
-   chmod +x find_music_duplicates.py
+   chmod +x music_duplicates_manager.py
    ```
 3. **Run the script:**
    ```bash
-   python find_music_duplicates.py
+   python music_duplicates_manager.py
    ```
    - You can set your preferences at each launch such as your music path (the path you installed the script by default) or similarity threshold (default 80) to control how similar filenames need to be to be considered duplicates.
    - You'll be prompted to make a decision for each pair of potential duplicates.
