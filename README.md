@@ -1,4 +1,3 @@
-```markdown
 # Music Duplicate Manager
 
 This Python script helps you find and manage potential duplicate music files in your music library. It's designed to be interactive and remember your decisions across multiple runs.
@@ -41,5 +40,3 @@ This Python script helps you find and manage potential duplicate music files in 
 - The script creates two files called `handled_pairs.pickle` (to store your decisions) and `preferences.pickle` (to store your preferences). You can safely delete these files if you want to reset the script's memory.
 - Make sure you have backups of your music library before running the script, as **file deletions are permanent**.
 - The script currently assumes a folder structure where artists are in top-level folders, albums are in subfolders within artist folders, and tracks are directly within album folders. If your structure is different, you might need to modify the code accordingly.
-
-```
